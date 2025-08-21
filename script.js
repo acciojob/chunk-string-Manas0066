@@ -9,8 +9,7 @@ function stringChop(str, size) {
       }
       console.log(arr);
   }
-
-stringChop(str,3);  
+  
 
 // Do not change the code below
 const str = prompt("Enter String.");
