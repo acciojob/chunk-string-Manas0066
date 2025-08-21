@@ -1,6 +1,16 @@
+
 function stringChop(str, size) {
-  // your code here
-}
+    // your code here
+      const arr = [];
+  
+      for(let i =0;i<str.length;i+=size){
+          let s = str.slice(i,i+size);
+          arr.push(s);
+      }
+      console.log(arr);
+  }
+
+stringChop(str,3);  
 
 // Do not change the code below
 const str = prompt("Enter String.");
