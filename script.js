@@ -7,7 +7,7 @@ function stringChop(str, size) {
           let s = str.slice(i,i+size);
           arr.push(s);
       }
-      console.log(arr);
+      return arr;
   }
   
 
